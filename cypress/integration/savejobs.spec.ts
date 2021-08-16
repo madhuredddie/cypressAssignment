@@ -42,6 +42,7 @@ describe("Testing HappyPath",()=>{
      robotHands.clickOnDomElement('.MuiGrid-root > .MuiButton-outlined > .MuiButton-label')
      robotHands.clickOnDomElement(':nth-child(3) > .MuiListItemText-root > .MuiTypography-root')
      robotEyes.seesTextInUrl('savedJobs')
+     
      robotEyes.seesDomContainText(':nth-child(3) > .MuiGrid-container > :nth-child(1) > [data-testid=cardLabel-placeholder]','User Interface Designer')
 
 
