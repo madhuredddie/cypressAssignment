@@ -57,7 +57,7 @@ describe("Testing HappyPath",()=>{
             robotHands.clickOnDomElement(':nth-child(1) > [data-testid=button] > .MuiButton-label')
             robotHands.clickOnDomElement(".MuiButton-containedPrimary")
             robotEyes.checkAlerts('please enter the location')
-            robotHands.wait(2000)
+            
         
 
 

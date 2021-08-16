@@ -9,7 +9,9 @@ context("Checking functionalities",()=>{
 
 describe("Testing HappyPath",()=>{
     beforeEach(()=>{
-        dependencies.accessUrl("http://bc15-green-commute.dev-apps.io/findjobs")
+        //dependencies.accessUrl("http://bc15-green-commute.dev-apps.io/findjobs")
+       //Cypress.env('login_url');
+       cy.visit(Cypress.env('login_url'))
    })
 
 

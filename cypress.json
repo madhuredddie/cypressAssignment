@@ -3,6 +3,10 @@
     "scripts": {
         "cypress:open": "cypress open --config-file configs/cypress.json",
         "cypress:run": "cypress run"
+      },
+      "env": {
+        "login_url": "http://bc15-green-commute.dev-apps.io/findjobs"
+        
       }
     
 
